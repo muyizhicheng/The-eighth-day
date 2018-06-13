@@ -1,0 +1,59 @@
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+header div{
+    width: 960px;
+    position: relative;
+}
+img{
+    width: 100px;
+}
+div img {
+    transform: scale(0.3);
+    float: left;
+}
+div b{
+    float: right;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    left: 300px;
+}
+banner div{
+    height: 300px;
+    background-color: green;
+    position: relative;
+}
+banner button{
+    position: relative;
+    left: 1000px;
+    top: 250px;
+}
+main1 button{
+    margin-left: 0;
+    float: left;
+    width: 100px;
+}
+
+
+article{
+    background-color: purple;
+    border: black solid 1px;
+    flex-flow: column wrap;
+    height: 200px;
+    flex: 200px 1;
+    flex-flow: row wrap;
+}
+
+section {
+    display: flex;
+}
